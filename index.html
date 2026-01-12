@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio website" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a class="brand" href="#">Your Name</a>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">JavaScript / Web</p>
+      <h1>Building simple, robust web products.</h1>
+      <p class="lead">
+        Short summary: who you are, what you do, and what you’re looking for.
+      </p>
+      <div class="cta">
+        <a class="btn" href="#projects">View projects</a>
+        <a class="btn secondary" href="#contact">Contact</a>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p>Selected work.</p>
+      </div>
+
+      <div class="grid" id="projectGrid"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head">
+        <h2>About</h2>
+        <p>Quick profile.</p>
+      </div>
+      <div class="card">
+        <p>
+          Add a short bio, skills, and what you’re currently working on.
+        </p>
+        <ul class="chips">
+          <li>JavaScript</li>
+          <li>HTML/CSS</li>
+          <li>Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Preferred channels.</p>
+      </div>
+
+      <div class="card">
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/d-onnelly" target="_blank" rel="noreferrer">d-onnelly</a></p>
+        <p>LinkedIn: <a href="#" target="_blank" rel="noreferrer">add link</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <small>© <span id="year"></span> Your Name</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
