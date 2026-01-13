@@ -388,5 +388,14 @@
     return words.slice(0, maxWords).join(" ") + "…";
   }
 
+  function blinkText(text) {
+    for (let i=0; i<10; i++) {
+      const blink = document.createElement("span");
+      blink.textContent = text;
+      blink.style.animation = `blink ${0.5 + (i * 0.1)}s infinite`;
+      return blink;
+    }
+  }
+
 
 })();
